@@ -12,7 +12,7 @@ git checkout -b feature-NomeDaBranch
 
 Deleta uma Branch
 ```bash
-git checkout -d feature-NomeDaBranch 
+git branch -D feature-NomeDaBranch 
 ```
 
 Troca um branch para outra 
