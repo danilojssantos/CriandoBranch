@@ -12,7 +12,7 @@ git checkout -b feature-NomeDaBranch
 
 Deleta uma Branch
 ```bash
-git branch -D feature-NomeDaBranch 
+git branch -d feature-NomeDaBranch 
 ```
 
 Troca um branch para outra 
@@ -31,4 +31,14 @@ git commit -m "comentários das alterações"
 Manda para o GIT o codigo 
 ```bash
 git push origin feature-NomeDaBranch
+```
+#Atualizar Branch
+
+Metodo 1
+```bash
+git pull 
+```
+Metodo 2
+```bash
+git pull origin feature-NomeDa
 ```
