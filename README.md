@@ -42,3 +42,11 @@ Metodo 2
 ```bash
 git pull origin feature-NomeDa
 ```
+Para buscar e listar todas as branches remotas no Git
+```bash
+git fetch --all
+```
+Para listar todas as branches remotas
+```bash
+git branch -r
+```
